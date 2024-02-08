@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    background: linear-gradient(#005e7a, #fed9b7);
+    font-family: 'Borel', cursive;
+    color: #fdfcdc;
+    text-shadow: 0 0 1px black;
+}
+
+header, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-title {
+    margin: 40px 0 20px;
+    padding: 0;
+    height: 100px;
+    font-size: 56px;
+}
+
+#gf-img {
+    border: 8px solid #fdfcdc;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: 80% 80%;
+}
+
+.main-subtitle {
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    background: #fdfcdc;
+    padding: 4px 16px;
+    color: #005e7a;
+    text-shadow: 0 0 0;
+}
+
+#bd-age {
+    height: 46px;
+    font-size: 36px;
+}
+
+#bd-date {
+    height: 36px;
+    font-size: 28px;
+}
+
+.gift-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0 0 0;
+}
+
+.gift-title {
+    margin: 0 0 10px;
+    height: 60px;
+    font-size: 36px;
+}
+
+.gift-hint {
+    margin: 0 0 16px 0;
+    height: 34px;
+    font-size: 24px;
+}
+
+.gift-cover-img {
+    border: 8px solid #fdfcdc;
+    border-radius: 12px;
+    background: url("/images/gift-cover.jpg");
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+}
+
+.height-var {
+    height: 300px;
+}
+
+#happy-gif:hover {
+    background: url("/images/chipi-chipi-chapa-chapa-dubi-dubi-daba-daba.gif");
+    background-size: 101%;
+    background-position: 100%;
+}
+
+#special-gif:hover {
+    background: url("/images/juan-carlos-bodoque-nodding.webp");
+    background-size: 140%;
+    background-position: 100% 100%;
+}
+
+#one-word-gif {
+    content-visibility: hidden;
+    font-size: 48px;
+    color: #fdfcdc;
+    text-shadow: 0 0 4px black;
+}
+
+#one-word-gif:hover {
+    display: flex;
+    content-visibility: visible;
+    background: url("/images/cat-kicking.gif");
+    background-size: cover;
+    background-position: 100% 100%;
+    justify-content: center;
+    align-items: end;
+}
+
+#love-gif:hover {
+    background: url("/images/cat-kissing-camera.gif");
+    background-size: 110%;
+}
+
+#kiss-img:hover {
+    background: url("/images/kiss-img.jpg");
+    background-size: 130%;
+    background-position: center 30%;
+}
+
+#main-message {
+    margin: 40px 0;
+    padding: 0;
+    height: 100px;
+    font-size: 56px;
+}
+
+/* Not used */
+#cows {
+    height: 300px;
+}
+
+#cows:hover {
+    background: url("/images/standing-dancing-cows.gif");
+    background-size: 145%;
+    background-position: 30% 55%;
+
+}
