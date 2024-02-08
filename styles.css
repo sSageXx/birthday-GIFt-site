@@ -4,6 +4,8 @@ body {
     font-family: 'Borel', cursive;
     color: #fdfcdc;
     text-shadow: 0 0 1px black;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
 }
 
 header, footer {
